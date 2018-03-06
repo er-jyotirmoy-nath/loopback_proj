@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDS": {
+    "host": "148.66.136.53",
+    "port": 3306,
+    "url": "",
+    "database": "smotik_db",
+    "password": "Anjana@123",
+    "name": "mysqlDS",
+    "user": "smotik_admin",
+    "connector": "mysql"
+  }
+}
