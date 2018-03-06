@@ -1,0 +1,35 @@
+{
+  "name": "news_table",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "image_url": {
+      "type": "string",
+      "required": true
+    },
+    "visible": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "date_news": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

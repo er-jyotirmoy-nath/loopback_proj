@@ -1,0 +1,39 @@
+{
+  "name": "home_content_table",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "section": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "sub_content": {
+      "type": "string",
+      "required": true
+    },
+    "image_1": {
+      "type": "string",
+      "required": true
+    },
+    "image_2": {
+      "type": "string"
+    },
+    "image_3": {
+      "type": "string"
+    },
+    "image_4": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

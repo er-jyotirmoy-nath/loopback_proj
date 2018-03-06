@@ -1,0 +1,31 @@
+{
+  "name": "testimonials",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "person": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "testimonial": {
+      "type": "string",
+      "required": true
+    },
+    "visible": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -38,5 +38,29 @@
   "banner_table": {
     "dataSource": "mysqlDS",
     "public": true
+  },
+  "blogs_table": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "clients": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "contact_us_table": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "home_content_table": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "news_table": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "testimonials": {
+    "dataSource": "mysqlDS",
+    "public": true
   }
 }

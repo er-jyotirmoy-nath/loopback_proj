@@ -1,0 +1,35 @@
+{
+  "name": "blogs_table",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date_blog": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image_url": {
+      "type": "string",
+      "required": true
+    },
+    "content_blog": {
+      "type": "string",
+      "required": true
+    },
+    "visible": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

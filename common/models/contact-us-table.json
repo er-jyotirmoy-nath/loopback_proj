@@ -1,0 +1,46 @@
+{
+  "name": "contact_us_table",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "emailid": {
+      "type": "string",
+      "required": true
+    },
+    "phonenumber": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "required": true
+    },
+    "facebook": {
+      "type": "string",
+      "required": true
+    },
+    "twitter": {
+      "type": "string",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "required": true
+    },
+    "googleplus": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
